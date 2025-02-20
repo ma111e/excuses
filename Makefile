@@ -2,15 +2,15 @@
 
 default: help
 
-## build_all : Builds the program for both architecture
-build_all: build_client build_server
+## all : Builds the program for both architecture
+all: client server
 
-## build_client : Builds the client from ./cmd/client
-build_client:
+## client : Builds the client from ./cmd/client
+client:
 	go build ./cmd/client
 
-## build_server : Builds the server from ./cmd/server
-build_server:
+## server : Builds the server from ./cmd/server
+server:
 	go build ./cmd/server
 
 ## help : Shows this help
