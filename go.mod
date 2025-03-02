@@ -1,6 +1,6 @@
 module github.com/ma111e/excuses
 
-go 1.23.4
+go 1.24.0
 
 require (
 	github.com/charmbracelet/bubbles v0.20.0
